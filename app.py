@@ -55,7 +55,7 @@ def summarize_and_extract_info(html_content, source):
                 "role": "user",
                 "parts": [
                     f"```\n{html_content}\n```",  # Provide HTML content to the model
-                    f"Please summarize the news content above into a maximum of 200 characters and find a usable image URL from the HTML elements. The news source is {source}. Summarize briefly, concisely, and make it eye-catching or clickbait like creating a news headline\nAvoid using Emojis and use Content Language as Language example Indonesia\nFormat the response as:\n```\nSummary: {{Summary}}\nURL Image: {{Image URL from HTML Element}}\nSource: {source}\n```",
+                    f"Please summarize the news content above into a maximum of 200 characters and find a usable image URL from the HTML elements. The news source is {source}. Summarize briefly, concisely, and make it eye-catching or clickbait like creating a news headline\nAvoid using Emojis and use Content Language as Language example Indonesia\nFormat the response as:\n```\nSummary: {{Summary}}\nURL Image: {{Image URL from HTML Element}}\nSource: {source}\nCaption: {{Caption for social media post}}\n```",
                 ],
             },
         ]
