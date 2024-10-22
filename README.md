@@ -2,7 +2,7 @@
 
 1. Clone this Repo
 
-   `git clone https://github.com/karuhun-developer/face-recognition-api.git`
+   `git clone git@github.com:bayurifkialghifari/waduh.git`
 
 2. Cd into the face-recognition-api folder
 
