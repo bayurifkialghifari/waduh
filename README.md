@@ -6,11 +6,11 @@
 
 2. Cd into the face-recognition-api folder
 
-   `cd face-recognition-api`
+   `cd waduh`
 
 3. Create a virtual environment
 
-   `python -m venv venv`
+   `python3 -m venv venv`
 
 4. Activate virtualenv
 
