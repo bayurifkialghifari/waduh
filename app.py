@@ -119,7 +119,7 @@ def create_image_output(text, source, background_image_url, output_file):
         return draw.multiline_textbbox((0, 0), text, font=font)
 
     font_size = 120  # Initial font size
-    font = ImageFont.truetype("./fonts/./fonts/Arial.ttf", font_size)
+    font = ImageFont.truetype("./fonts/Arial.ttf", font_size)
     
     # Adjust font size to fit within the available space
     while True:
@@ -131,7 +131,7 @@ def create_image_output(text, source, background_image_url, output_file):
         if font_size < 36:  # Minimum font size limit
             font_size = 36
             break
-        font = ImageFont.truetype("./fonts/./fonts/Arial.ttf", font_size)
+        font = ImageFont.truetype("./fonts/Arial.ttf", font_size)
 
     # Draw the text onto the image
     draw.text((rect_left + 20, rect_top + 20), wrapped_text, font=font, fill='black')
